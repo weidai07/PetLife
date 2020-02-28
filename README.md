@@ -1,23 +1,18 @@
-# Tap Room Project
+# CapstoneProject
 ##### By Wei Dai
-###### Created 14 February, 2020
+###### Created 28 February, 2020
 
 ## Description
 
-This project is demostration of my knowledge in React to date. 
-
-Previous Versions of Project: 
-https://github.com/weidai07/TapRoom 
-https://github.com/weidai07/Tap-Room 
-https://github.com/weidai07/TapRoom1 
+This project is my capstone project.
 
 ## Links:
 
-Github - https://github.com/weidai07/React-TapRoom
+Github - https://github.com/weidai07/PetLife
 
 ## Setup/Installation Requirements:
 
-1. Open https://github.com/weidai07/React-TapRoom
+1. Open https://github.com/weidai07/PetLife
 2. Clone repository to local machine 
 3. Build and Run project
 
@@ -26,9 +21,8 @@ Github - https://github.com/weidai07/React-TapRoom
 
 ### Specification
 
-This program is designed to show styling in react. Please see attached structure diagram. 
+This program is designed to .... Please see attached structure diagram. 
 
-![Project Structure Diagram](/RouteStructure.png)
 
 ## Known Bugs
 
@@ -37,6 +31,7 @@ This program is designed to show styling in react. Please see attached structure
 ## Technologies Used:  
 
 * React
+* Redux
 * HTML
 * CSS
 * JavaScript
