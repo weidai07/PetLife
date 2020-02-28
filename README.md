@@ -21,7 +21,7 @@ Github - https://github.com/weidai07/PetLife
 
 ### Specification
 
-This program is designed to .... Please see attached structure diagram. 
+This program is designed to .... Please see attached structure diagram.  
 
 
 ## Known Bugs
