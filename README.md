@@ -21,8 +21,40 @@ Github - https://github.com/weidai07/PetLife
 
 ### Specification
 
-This program is designed to .... Please see attached structure diagram.  
+This program is designed to allow users to add photos of their pets so they can have a live photo album of their pet's life. Please see attached project structure diagram.  
 
+![Project Structure Diagram](/Capstone.png)
+
+Name of Project: PetLife
+
+Project's Purpose or Goal: (What will it do for users?)
+
+This project will allow users to view the growth of their pets from birth. (Similar to Instagram for pets only)
+
+List the absolute minimum features the project requires to meet this purpose or goal:
+
+-User Authentications
+-Users can make comments on their pet photos or other user's pet photos
+-Users can upload and delete photos at any time
+
+What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
+
+-C#
+-Entity Framework 
+-React
+
+If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+
+-Add GoFundMe API to the project for donations and pet support
+-Local Veterinarian Search 
+
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+
+-Databases of users and their information uploads
+
+Is there anything else you'd like your instructor to know?
+
+-None at the moment
 
 ## Known Bugs
 
