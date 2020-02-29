@@ -1,6 +1,6 @@
 # Capstone Project: PetLife
 ##### By Wei Dai
-###### Created 28 February, 2020
+###### Created 28 February, 2020 
 
 ## Description
 
