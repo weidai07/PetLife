@@ -11,7 +11,7 @@ import NavigationBar from './components/Navigationbar';
 class App extends React.Component {  
 
   constructor(props) {
-    super(props);
+    super(props);   
     this.state = {
       masterConfirmationPage: []
     };
