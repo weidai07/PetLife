@@ -4,7 +4,7 @@
 
 ## Description
 
-This project is my capstone project.
+This project is my capstone project. This program is designed to allow users to add photos of their pets so they can have a live photo album of their pet's life. Being a pet owner myself, .......
 
 ## Links:
 
