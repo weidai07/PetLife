@@ -1,5 +1,3 @@
-//This will be the page that creates new CheckIns
-
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
@@ -60,20 +58,20 @@ const backgroundStyle = {
      
   };
 
-function NewCheckIn(props){
+function NewUpload(props){
   let _where = null;
-  let _checkIn = null;
-  let _checkOut = null;
-  let _guests = null;
+  let _upload = null;
+  let _download = null;
+  let _users = null;
 
-  function handleNewCheckIn(event) {
-      console.log(props.handleNewCheckIn);
+  function handleNewUpload(event) {
+      console.log(props.handleNewUpload);
     event.preventDefault();
-    props.onNewCheckInCreation({where: _where.value, checkIn: _checkIn.value, checkOut: _checkOut.value, guests: _guests.value, id: v4()});
+    props.onNewUploadCreation({where: _where.value, upload: _upload.value, download: _download.value, users: _users.value, id: v4()});
     _where.value = '';
-    _checkIn.value= '';
-    _checkOut.value= '';
-    _guests.value= '';
+    _upload.value= '';
+    _download.value= '';
+    _users.value= '';
   }
 
   const classes = useStyles();
@@ -84,21 +82,21 @@ function NewCheckIn(props){
         <NavigationBar /> 
         <Card className={classes.root} variant="outlined">
             <CardContent>
-            <form onSubmit={handleNewCheckIn}>
-                <h3>Book unique places to stay and things to do.</h3>
+            <form onSubmit={handleNewUpload}>
+                <h3>Upload Images of Your Pets.</h3>
                 <input type='text' id='where' placeholder='Where to check in' ref={(input) => {_where = input;}}/>
        
                 <br/><br/>
-                <h5>Check-In</h5>
-                <input type='text' id='checkIn' placeholder='checkIn to check in' ref={(input) => {_checkIn = input;}}/>
+                <h5>Upload Image</h5>
+                <input type='text' id='upload' placeholder='upload to check in' ref={(input) => {_upload = input;}}/>
 
                 <br/>
-                <h5>Check-out</h5>
-                <input type='text' id='checkOut' placeholder='checkOut to check in' ref={(input) => {_checkOut = input;}}/>
+                <h5>Download Image</h5>
+                <input type='text' id='download' placeholder='download to check in' ref={(input) => {_download = input;}}/>
 
                 <br/>
-                <h5>Guests</h5>
-                <input type='text' id='guests' placeholder='guests to check in' ref={(input) => {_guests = input;}}/>
+                <h5>Users</h5>
+                <input type='text' id='users' placeholder='users to check in' ref={(input) => {_users = input;}}/>
               
                 <button type='submit'>Submit</button>
             </form> 
@@ -112,8 +110,8 @@ function NewCheckIn(props){
   );
 }
 
-NewCheckIn.propTypes = {
-  onNewCheckInCreation: PropTypes.func
+NewUpload.propTypes = {
+  onNewUploadCreation: PropTypes.func
 };
 
-export default NewCheckIn;
+export default NewUpload;

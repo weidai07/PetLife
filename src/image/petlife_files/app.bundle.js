@@ -73116,11 +73116,11 @@ var _temp = function () {
 
 /***/ }),
 
-/***/ "./src/components/CheckIn.jsx":
+/***/ "./src/components/Upload.jsx":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = CheckIn;
+/* harmony export (immutable) */ __webpack_exports__["a"] = Upload;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__material_ui_core_styles__ = __webpack_require__("./node_modules/@material-ui/core/esm/styles/index.js");
@@ -73161,7 +73161,7 @@ var useStyles = Object(__WEBPACK_IMPORTED_MODULE_1__material_ui_core_styles__["a
   };
 });
 
-function CheckIn() {
+function Upload() {
   var classes = useStyles();
 
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -73232,7 +73232,7 @@ function CheckIn() {
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_TextField__["a" /* default */], { id: 'outlined-basic', label: 'Guests', variant: 'filled' })
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__material_ui_core_TextField__["a" /* default */], { id: 'outlined-basic', label: 'Users', variant: 'filled' })
     )
   );
 }
@@ -73243,9 +73243,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(useStyles, 'useStyles', '/Users/Guest/Desktop/petlife-React/src/components/CheckIn.jsx');
+  __REACT_HOT_LOADER__.register(useStyles, 'useStyles', '/Users/Guest/Desktop/petlife-React/src/components/Upload.jsx');
 
-  __REACT_HOT_LOADER__.register(CheckIn, 'CheckIn', '/Users/Guest/Desktop/petlife-React/src/components/CheckIn.jsx');
+  __REACT_HOT_LOADER__.register(Upload, 'Upload', '/Users/Guest/Desktop/petlife-React/src/components/Upload.jsx');
 }();
 
 ;
@@ -73259,7 +73259,7 @@ var _temp = function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__NavigationBar__ = __webpack_require__("./src/components/NavigationBar.jsx");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CheckIn__ = __webpack_require__("./src/components/CheckIn.jsx");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Upload__ = __webpack_require__("./src/components/Upload.jsx");
 
 
 
@@ -73301,7 +73301,7 @@ function FrontPage() {
         'div',
         { style: backgroundStyle },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__NavigationBar__["a" /* default */], null),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__CheckIn__["a" /* default */], null)
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Upload__["a" /* default */], null)
     );
 }
 

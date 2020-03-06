@@ -47,7 +47,7 @@ function NavigationBar(){
         <li><a style={link} >Post an Image</a></li>
         <li><a style={link} >Leave a Comment</a></li>
         <li><a style={link}>Select Language</a></li>
-        <Link to="/">Home</Link> | <Link to="/ConfirmationPage">Pictures</Link> | <Link to="/NewCheckIn">Find a Pet</Link>
+        <Link to="/">Home</Link> | <Link to="/ConfirmationPage">Pictures</Link> | <Link to="/NewUpload">Find a Pet</Link>
       </ul>
     </div> 
   );    

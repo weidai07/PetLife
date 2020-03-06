@@ -18,18 +18,18 @@ const backgroundStyle = {
      
   };
 
-function CheckInRequest(props){
+function UploadRequest(props){
   return (
     <div style={backgroundStyle}>
          <NavigationBar /> 
       <p> Would You Like to Add a Picture of Your Pet?</p>
-      <button onClick={props.onCheckInRequest}>Yes</button>
+      <button onClick={props.onUploadRequest}>Yes</button>
     </div>
   );
 }
 
-CheckInRequest.propTypes = {
-  onCheckInRequest: PropTypes.func
+UploadRequest.propTypes = {
+  onUploadRequest: PropTypes.func
 };
 
-export default CheckInRequest;
+export default UploadRequest;

@@ -1,5 +1,5 @@
 import React from 'react';
-import CheckIn from './CheckIn';
+import Upload from './Upload';
 import PropTypes from 'prop-types';
 import NavigationBar from './Navigationbar';
 
@@ -26,12 +26,12 @@ function ConfirmationPage(props){
     <div style={backgroundStyle}>
         <NavigationBar />
       <p> Here are the Pictures</p>
-      {props.confirmationPage.map((checkIn) => 
-        <CheckIn where={checkIn.where}
-          checkIn={checkIn.checkIn}
-          checkOut={checkIn.checkOut}
-          guests={checkIn.guests} 
-          key={checkIn.id}/>
+      {props.confirmationPage.map((upload) => 
+        <Upload where={upload.where}
+          upload={upload.upload}
+          download={upload.download}
+          users={upload.users} 
+          key={upload.id}/>
       )}
     </div>
   );    
@@ -42,5 +42,3 @@ ConfirmationPage.propTypes = {
 };
 
 export default ConfirmationPage;
-
-//This is the page where the checkins are listed
