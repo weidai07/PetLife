@@ -8,7 +8,7 @@ import FrontPage from './components/FrontPage';
 import NewCheckInClass from './components/CheckInProp';
 import NavigationBar from './components/Navigationbar';
 
-class App extends React.Component {       adsfadfadsfasdfasdfadsf     
+class App extends React.Component {  
 
   constructor(props) {
     super(props);   
