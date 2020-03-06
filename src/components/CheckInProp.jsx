@@ -27,7 +27,6 @@ class NewCheckInClass extends React.Component{
     }
     return (
       <div>
-          {/* <NavigationBar /> */}
         {currentlyVisibleContent}
       </div>
     );

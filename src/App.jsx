@@ -22,7 +22,6 @@ class App extends React.Component {
     var newMasterConfirmationPage = this.state.masterConfirmationPage.slice();
     newMasterConfirmationPage.push(newCheckIn);
     this.setState({masterConfirmationPage: newMasterConfirmationPage});
-    // console.log(newMasterConfirmationPage);
   }
 
   render(){
@@ -30,16 +29,12 @@ class App extends React.Component {
     
       <div className="App">
     
-        {/* <FrontPage/> */}
-        {/* <NavigationBar/> */}
         <Switch>
         <Route exact path='/' component={FrontPage} />
 
           <Route exact path='/ConfirmationPage' render={()=><ConfirmationPage confirmationPage={this.state.masterConfirmationPage} />} />
        
           <Route path='/newcheckin' render={()=><NewCheckInClass onNewCheckInCreation={this.handleConfirmationList} />} />
-      
-       
 
         </Switch>
       </div>

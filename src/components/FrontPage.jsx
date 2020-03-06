@@ -10,7 +10,6 @@ const backgroundStyle = {
   display: 'inlineBlock',
   zIndex: '-1',
   width: '100%',
-  // paddingTop: '15%',
     
   backgroundRepeat: 'no-repeat',
   backgroundSize:'cover',
@@ -25,7 +24,6 @@ function FrontPage(){
   return (
     <div style={backgroundStyle}>
       <NavigationBar />   
-      {/* <CheckIn></CheckIn> */}
     </div>
   );    
 }

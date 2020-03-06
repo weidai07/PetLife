@@ -39,7 +39,6 @@ const link = {
 function NavigationBar(){
   return (
     <div>
-      {/* <img src={'https://cdn.freebiesupply.com/logos/large/2x/petlife-2-logo-black-and-white.png'} style={logo} /> */}
      
       <ul style={mainNav} >
         <li><a style={link} >Login</a></li>

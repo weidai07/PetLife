@@ -51,7 +51,6 @@ const backgroundStyle = {
     display: 'inlineBlock',
     zIndex: '-1',
     width: '100%',
-    // paddingTop: '15%',
       
     backgroundRepeat: 'no-repeat',
     backgroundSize:'cover',
@@ -77,9 +76,6 @@ function NewCheckIn(props){
     _guests.value= '';
   }
 
-
-
-  // export default function CheckIn() {
   const classes = useStyles();
 
   return (
@@ -91,24 +87,24 @@ function NewCheckIn(props){
             <form onSubmit={handleNewCheckIn}>
                 <h3>Book unique places to stay and things to do.</h3>
                 <input type='text' id='where' placeholder='Where to check in' ref={(input) => {_where = input;}}/>
-                {/* <TextField id="filled-basic" label="Where" variant="filled" ref={(input) => {_where = input;}} /> */}
+       
                 <br/><br/>
                 <h5>Check-In</h5>
                 <input type='text' id='checkIn' placeholder='checkIn to check in' ref={(input) => {_checkIn = input;}}/>
-                {/* <TextField id="filled-basic" label="mm/dd/yyyy" variant="filled" ref={(input) => {_checkIn = input;}}/> */}
+
                 <br/>
                 <h5>Check-out</h5>
                 <input type='text' id='checkOut' placeholder='checkOut to check in' ref={(input) => {_checkOut = input;}}/>
-                {/* <TextField id="filled-basic" label="mm/dd/yyyy" variant="filled" ref={(input) => {_checkOut = input;}} /> */}
+
                 <br/>
                 <h5>Guests</h5>
                 <input type='text' id='guests' placeholder='guests to check in' ref={(input) => {_guests = input;}}/>
-                {/* <TextField id="outlined-basic" label="Guests" variant="filled"ref={(input) => {_guests = input;}}/> */}
+              
                 <button type='submit'>Submit</button>
             </form> 
             </CardContent>
             <CardActions>
-            {/* <Button   variant="contained" size="medium" color="secondary">Submit</Button> */}
+
             </CardActions> 
         </Card>
         </div>
@@ -121,5 +117,3 @@ NewCheckIn.propTypes = {
 };
 
 export default NewCheckIn;
-
-//this creates new checkins, maybe move to a NewCheckIn component and have this more like ticket.
