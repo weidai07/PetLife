@@ -23,6 +23,8 @@ Github - https://github.com/weidai07/PetLife
 
 This program is designed to allow users to add photos of their pets so they can have a live photo album of their pet's life. Please see attached project structure diagram.  
 
+![Project Mock Up](/MockUp.png)
+
 ![Project Structure Diagram](/Capstone.png)
 
 Name of Project: PetLife
